@@ -8,10 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button Content="Kirjaudu" HorizontalAlignment="Left" Height="49" Margin="304,314,0,0" VerticalAlignment="Top" Width="201" FontFamily="Monospac821 BT" FontSize="24" Click="Button_Click" Background="#FFFCFF51"/>
-        <PasswordBox HorizontalAlignment="Left" Height="23" Margin="304,206,0,0" VerticalAlignment="Top" Width="201"/>
+        <PasswordBox x:Name="salasana" HorizontalAlignment="Left" Height="23" Margin="304,206,0,0" VerticalAlignment="Top" Width="201"/>
         <Label Content="Salasana:" HorizontalAlignment="Left" Margin="304,182,0,0" VerticalAlignment="Top" Width="110" FontFamily="Monospac821 BT"/>
         <Label Content="Käyttäjätunnus:" HorizontalAlignment="Left" Margin="304,65,0,0" VerticalAlignment="Top" Width="110" FontFamily="Monospac821 BT"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="304,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <TextBox x:Name="käyttäjä" HorizontalAlignment="Left" Height="23" Margin="304,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
 
     </Grid>
 </Window>
