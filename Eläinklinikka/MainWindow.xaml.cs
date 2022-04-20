@@ -23,6 +23,7 @@ namespace Eläinklinikka
         public MainWindow()
         {
             InitializeComponent();
+            string käyttäjä = käyttäjä.Text;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -32,6 +33,6 @@ namespace Eläinklinikka
             this.Close();
         }
 
-        string käyttäjä = TextBox
+
     }
 }
